@@ -16,7 +16,7 @@ const Header = () => {
                 <button onClick={toWallet}>Wallet</button>
             </div>
             <div className='w-1/4 flex flex-row justify-center transition ease-in-out hover:-translate-y-1 hover:scale-110'>
-                <button onClick={() => {document.getElementById('mad').scrollIntoView({behavior: "smooth"})}}>Madlabs</button>
+                <button onClick={() => {document.getElementById('mad').scrollIntoView({behavior: "smooth"})}}>Mad Lads</button>
             </div>
             <div className='w-1/4 flex flex-row justify-center'>
                 <button className='transition ease-in-out hover:-translate-y-1 hover:scale-110' onClick={() => {document.getElementById('team').scrollIntoView({behavior: "smooth"})}}>Team</button>

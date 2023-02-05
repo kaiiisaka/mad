@@ -5,7 +5,7 @@ import Mad from '../Assets/Mad Lads.png'
 const Fourth = () => {
     return (
         <div className='flex flex-col justify-around items-center mt-2 mx-4 mb-8' id='mad'>
-            <h2 className='sm:text-2xl my-3'>Mad Labs</h2>
+            <h2 className='sm:text-2xl my-3'>Mad Lads</h2>
             <div className='flex flex-col sm:flex-row justify-between items-center mx-4'>
                 <div className='w-3/4 sm:w-1/2 h-fit border border-white p-2 sm:p-5 mb-2 sm:text-2xl flex flex-col justify-center items-center'>
                     <Fade left cascade>

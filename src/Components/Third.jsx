@@ -1,8 +1,6 @@
 import React from 'react';
 import Fade from "react-reveal/Fade";
 import aurory from '../Assets/aurory.png'
-import defi from '../Assets/defiLand.jpg'
-import pxLogo from "../Assets/redLogo.png";
 
 const Third = () => {
     return (
