@@ -17,7 +17,9 @@ const First = () => {
               </Fade>
             </div>
             <div className='w-3/4 sm:w-1/4 flex items-center justify-center sm:mr-10'>
+                <Fade>
                 <img src={smoking} alt='WAO' className='border border-white '/>
+                </Fade>
             </div>
         </div>
     );

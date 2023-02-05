@@ -4,11 +4,11 @@ import pxLogo from "../Assets/redLogo.png";
 
 const Second = () => {
     return (
-        <div className='h-screen flex flex-col justify-between items-center mt-4 mx-4 mb-8'>
-            <h2 className='sm:text-2xl'>The future is already here</h2>
-            <div className='flex flex-col sm:flex-row justify-between items-center mt-4 mx-4'>
+        <div className='lg:h-screen flex flex-col justify-around items-center mt-2 mx-4 mb-8' id='wallet111'>
+            <h2 className='sm:text-2xl my-3'>The future is already here</h2>
+            <div className='flex flex-col sm:flex-row justify-between items-center mx-4'>
                 <div className='w-3/4 sm:w-1/2 h-fit border border-white p-2 sm:p-5 mb-2 sm:text-2xl flex justify-center items-center'>
-                    <Fade>
+                    <Fade left>
                         <p>
                             Well, let's start. We are here developing
                             the first open-source cross-chain wallet
@@ -24,7 +24,9 @@ const Second = () => {
                     </Fade>
                 </div>
                 <div className='w-2/4 sm:w-1/5 flex items-center justify-center sm:mr-10'>
+                    <Fade bottom>
                     <img src={pxLogo} alt='red Logo' className='justify-center items-center'/>
+                    </Fade>
                 </div>
             </div>
         </div>
