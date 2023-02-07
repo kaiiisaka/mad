@@ -27,7 +27,7 @@ const Fourth = () => {
                 </div>
                 <div className='w-2/4 sm:w-1/5 flex items-center justify-center sm:mr-10'>
                     <Fade>
-                    <img src={Mad} alt='Mad Labs' className='justify-center items-center'/>
+                    <img src={Mad} alt='Mad Labs' className='justify-center items-center rounded-full'/>
                     </Fade>
                 </div>
             </div>

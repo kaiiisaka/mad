@@ -9,10 +9,8 @@ import Footer from "./Components/Footer";
 
 function App() {
 
-
-
   return (
-    <div className="App bg-black flex flex-col text-white items-center min-h-screen h-full">
+    <div className="App bg-gradient-to-br from-black via-blue-800 to-rose-600 flex flex-col text-white items-center min-h-screen h-full">
         <Header />
         <h1 className='sm:text-2xl animate-pulse'>Welcome</h1>
         <First />

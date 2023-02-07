@@ -8,6 +8,7 @@ import Tristan from '../Assets/tristan.png'
 import RedLogo from '../Assets/redLogo.png'
 import Mad from "../Assets/Mad Lads.png";
 import wao from '../Assets/THE LIFE OF WAO (1) 1.png'
+import monkey from '../Assets/Monkey.png'
 
 const Team = () => {
     return (
@@ -27,6 +28,13 @@ const Team = () => {
                                 <a href='https://twitter.com/armaniferrante' className='text-blue-600'>Twitter</a>
                             </p>
                             <img src={Armani} className='w-1/12 h-1/12'/>
+                        </div>
+
+                        <div className='w-full flex flex-row justify-between items-center p-2 border border-white'>
+                            <p className='w-1/3'>Mad Monkey <br/>
+                                <a href='https://twitter.com/MonkDoesnt' className='text-blue-600'>Twitter</a>
+                            </p>
+                            <img src={monkey} className='w-1/12 h-1/12 rounded-full'/>
                         </div>
 
                         <div className='w-full flex flex-row justify-between items-center p-2 border border-white'>
@@ -67,7 +75,7 @@ const Team = () => {
                 </div>
                 <div className='w-2/4 sm:w-1/3 flex items-center justify-center my-5 sm:mr-10'>
                     <Fade>
-                        <img src={wao} alt='wao' className='justify-center items-center '/>
+                        <img src={wao} alt='wao' className='justify-center items-center rounded-2xl'/>
                     </Fade>
                 </div>
             </div>
