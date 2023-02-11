@@ -1,0 +1,26 @@
+.goBall{
+    width: 25px;
+    height: 25px;
+    animation: motion 4s infinite linear;
+}
+
+@keyframes motion {
+    0% {
+        transform: translate3d(0, 12.5px, 0);
+    }
+    25% {
+        transform: translate3d(625px, 12.5px, 0);
+    }
+    50% {
+        transform: translate3d(625px, 280px, 0);
+    }
+    75% {
+        transform: translate3d(0, 280px, 0);
+    }
+    /*from{*/
+    /*    transform: translateZ(300px) scale(1);*/
+    /*}*/
+    /*to{*/
+    /*    transform: rotate(360deg) scale(2);*/
+    /*}*/
+}

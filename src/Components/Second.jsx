@@ -1,8 +1,45 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import pxLogo from "../Assets/redLogo.png";
+// import * as THREE from 'three'
+// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 
 const Second = () => {
+
+    // const scene = new THREE.Scene()
+    // const camera = new THREE.PerspectiveCamera(45,window.innerWidth / window.innerHeight,0.1, 1000)
+    // camera.position.z = 10;
+    //
+    // const rerender = new THREE.WebGLRenderer({alpha: true, antialias: true})
+    // rerender.setClearColor(0x000000, 0);
+    // rerender.setSize(720, 50)
+    //
+    // rerender.domElement.setAttribute('id', 'backpack3d');
+    // document.body.insertBefore(rerender.domElement, document.body.firstChild)
+    //
+    // const aLight = new THREE.AmbientLight(0x404040, 1.2);
+    // scene.add(aLight);
+    //
+    // const pLight = new THREE.PointLight(0xFFFFFF, 1.2);
+    // pLight.position.set(0, -3, 7)
+    // scene.add(pLight);
+    //
+    // let loader = new GLTFLoader();
+    // let obj = null;
+    //
+    // loader.load('../Assets/3D/ball_blue/scene.gltf', function (gltf){
+    //     obj = gltf;
+    //     obj.scene.scale.set(1, 1, 1);
+    //     scene.add(obj.scene)
+    // },
+    //     (xhr) => {
+    //         console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+    //     },
+    //     (error) => {
+    //         console.log( error );
+    //     })
+
+
     return (
         <div className='lg:h-screen flex flex-col justify-around items-center mt-2 mx-4 mb-8' id='wallet111'>
             <h2 className='sm:text-2xl my-3'>The future is already here</h2>
@@ -24,6 +61,9 @@ const Second = () => {
                     </Fade>
                 </div>
                 <div className='w-2/4 sm:w-1/5 flex items-center justify-center sm:mr-10'>
+                    {/*<div id='3dContainer'>*/}
+
+                    {/*</div>*/}
                     <Fade bottom>
                     <img src={pxLogo} alt='red Logo' className='justify-center items-center'/>
                     </Fade>
